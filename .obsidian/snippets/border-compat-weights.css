@@ -1,0 +1,122 @@
+/* === Border theme compatibility: force Iosevka weights everywhere === */
+/* Assumes your main snippet defines these variables in :root */
+:root {
+  --w-thin: 100; --w-extralight: 200; --w-light: 300; --w-regular: 400;
+  --w-medium: 500; --w-semibold: 600; --w-bold: 700; --w-extrabold: 800; --w-black: 900;
+  --font-interface: "Iosevka Nerd Font", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-text: "Iosevka Nerd Font", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-monospace: "Iosevka Nerd Font Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* ---------- Global families (win vs theme) ---------- */
+body, .workspace, .mod-root, .titlebar, .status-bar,
+.markdown-preview-view, .markdown-source-view,
+input, textarea, select, button, .menu, .modal, .prompt {
+  font-family: var(--font-text) !important;
+}
+.cm-gutters, .view-header-title, .nav-folder-title, .nav-file-title,
+.workspace-tab-header-inner, .setting-item-name, .setting-item-description {
+  font-family: var(--font-interface) !important;
+}
+code, .cm-inline-code,
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock,
+.cm-s-obsidian .cm-line.HyperMD-codeblock {
+  font-family: var(--font-monospace) !important;
+}
+
+/* ---------- Headings (reading + live preview) ---------- */
+.markdown-preview-view h1, .markdown-source-view h1 { font-weight: var(--w-extrabold) !important; }
+.markdown-preview-view h2, .markdown-source-view h2 { font-weight: var(--w-bold)      !important; }
+.markdown-preview-view h3, .markdown-source-view h3 { font-weight: var(--w-semibold)  !important; }
+.markdown-preview-view h4, .markdown-source-view h4 { font-weight: var(--w-medium)    !important; }
+.markdown-preview-view h5, .markdown-source-view h5 { font-weight: var(--w-regular)   !important; }
+.markdown-preview-view h6, .markdown-source-view h6 { font-weight: var(--w-light)     !important; }
+
+/* ---------- Body, emphasis, lists, tables ---------- */
+.markdown-preview-view p, .markdown-source-view p { font-weight: var(--w-regular) !important; }
+.markdown-preview-view blockquote, .markdown-source-view blockquote { font-weight: var(--w-light) !important; font-style: italic !important; }
+em { font-style: italic !important; font-weight: var(--w-regular) !important; }
+strong { font-weight: var(--w-bold) !important; }
+strong em, em strong { font-weight: var(--w-bold) !important; font-style: italic !important; }
+ul>li, ol>li { font-weight: var(--w-regular) !important; }
+.markdown-preview-view table th { font-weight: var(--w-semibold) !important; }
+.markdown-preview-view table td { font-weight: var(--w-regular) !important; }
+
+/* ---------- Tabs & headers ---------- */
+.workspace-tab-header-inner { font-weight: var(--w-medium) !important; }
+.workspace-tab-header.is-active .workspace-tab-header-inner { font-weight: var(--w-semibold) !important; }
+.view-header-title { font-weight: var(--w-semibold) !important; }
+.view-header-nav-buttons, .view-header-breadcrumbs { font-weight: var(--w-medium) !important; }
+
+/* ---------- File explorer ---------- */
+.nav-folder-title { font-weight: var(--w-medium) !important; }
+.nav-file-title { font-weight: var(--w-regular) !important; }
+.nav-file-title.is-active, .nav-file-title:hover { font-weight: var(--w-semibold) !important; }
+
+/* ---------- Outline / backlinks / outgoing ---------- */
+.outline .tree-item-self .tree-item-inner,
+.backlink-pane .tree-item-self .tree-item-inner,
+.outgoing-link-pane .tree-item-self .tree-item-inner { font-weight: var(--w-regular) !important; }
+.outline .tree-item-self.is-active .tree-item-inner,
+.backlink-pane .tree-item-self.is-active .tree-item-inner,
+.outgoing-link-pane .tree-item-self.is-active .tree-item-inner { font-weight: var(--w-semibold) !important; }
+
+/* ---------- Search panel ---------- */
+.search-input, .search-input input { font-weight: var(--w-regular) !important; }
+.search-result-file-title { font-weight: var(--w-semibold) !important; }
+.search-result-file-matches { font-weight: var(--w-regular) !important; }
+
+/* ---------- Quick Switcher / Command Palette ---------- */
+.prompt, .prompt .prompt-input { font-weight: var(--w-regular) !important; }
+.suggestion-container .suggestion-item { font-weight: var(--w-regular) !important; }
+.suggestion-container .suggestion-item.is-selected { font-weight: var(--w-semibold) !important; }
+.suggestion-container .suggestion-item .suggestion-hotkey { font-weight: var(--w-medium) !important; }
+
+/* ---------- Settings ---------- */
+.setting-item-name { font-weight: var(--w-semibold) !important; }
+.setting-item-description { font-weight: var(--w-regular) !important; }
+.modal.mod-settings .vertical-tab-nav-item { font-weight: var(--w-regular) !important; }
+.modal.mod-settings .vertical-tab-nav-item.is-active { font-weight: var(--w-semibold) !important; }
+
+/* ---------- Buttons / icons / context menus ---------- */
+button, .clickable-icon, .mod-cta { font-weight: var(--w-medium) !important; }
+button:hover, .clickable-icon:hover, .mod-cta:hover { font-weight: var(--w-semibold) !important; }
+.menu .menu-item { font-weight: var(--w-regular) !important; }
+.menu .menu-item.is-active, .menu .menu-item:hover { font-weight: var(--w-medium) !important; }
+
+/* ---------- Editor chrome ---------- */
+.cm-gutters { font-weight: var(--w-light) !important; }
+.cm-s-obsidian .cm-foldPlaceholder { font-weight: var(--w-medium) !important; }
+.cm-s-obsidian .cm-strong { font-weight: var(--w-bold) !important; }
+.cm-s-obsidian .cm-em { font-style: italic !important; }
+
+/* ---------- Ribbon / status ---------- */
+.workspace-ribbon-collapse-btn, .workspace-ribbon .side-dock-actions { font-weight: var(--w-medium) !important; }
+.status-bar, .status-bar .status-bar-item { font-weight: var(--w-regular) !important; }
+.status-bar .status-bar-item:hover { font-weight: var(--w-medium) !important; }
+
+/* ---------- Inputs ---------- */
+input, textarea, select { font-weight: var(--w-regular) !important; }
+input::placeholder, textarea::placeholder { font-weight: var(--w-light) !important; }
+
+/* ---------- Inline utilities still win ---------- */
+.markdown-preview-view .w-thin       { font-weight: 100 !important; }
+.markdown-preview-view .w-extralight { font-weight: 200 !important; }
+.markdown-preview-view .w-light      { font-weight: 300 !important; }
+.markdown-preview-view .w-regular    { font-weight: 400 !important; }
+.markdown-preview-view .w-medium     { font-weight: 500 !important; }
+.markdown-preview-view .w-semibold   { font-weight: 600 !important; }
+.markdown-preview-view .w-bold       { font-weight: 700 !important; }
+.markdown-preview-view .w-extrabold  { font-weight: 800 !important; }
+.markdown-preview-view .w-black      { font-weight: 900 !important; }
+
+.markdown-source-view.mod-cm6 .cm-content .w-thin       { font-weight: 100 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-extralight { font-weight: 200 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-light      { font-weight: 300 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-regular    { font-weight: 400 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-medium     { font-weight: 500 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-semibold   { font-weight: 600 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-bold       { font-weight: 700 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-extrabold  { font-weight: 800 !important; }
+.markdown-source-view.mod-cm6 .cm-content .w-black      { font-weight: 900 !important; }

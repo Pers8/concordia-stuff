@@ -1,0 +1,26 @@
+{
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
+  "knownTags": {
+    "pandas": 1,
+    "panda": 2,
+    "subscriptions": 3,
+    "chem205": 4,
+    "test": 5,
+    "chem205_0": 6,
+    "chem205/lec0": 1,
+    "biol202": 7,
+    "biol202/lec1": 1,
+    "biol202/lec2": 2,
+    "biol202/lec3": 3
+  },
+  "_version": 3
+}

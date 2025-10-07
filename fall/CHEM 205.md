@@ -1,0 +1,18 @@
+# Chem 205 – General Chemistry
+---
+- [Week 0 – Review on Orientation](CHEM205_Lec0.md)
+- [Week 1a – Applying Review Concepts](Chem205_Rogers_Week1a_applying-review)
+- [Week 1b – Kotz Ch2: Atoms, Molecules, & Ions](Chem205_Rogers_Week1b_Kotz-or-Open)
+- [Week 2a – Kotz Ch2: Atoms & Molecules (cont.)](Chem205_Rogers_Week2a_Kotz-or-Open)
+- [Week 2b – Kotz Ch2: 4to5](Chem205_Rogers_Week2b_Kotz-Ch2-4to5)
+- [Week 3a – Kotz Ch2: 6to9](Chem205_Rogers_Week3a_Kotz-Ch2-6to9)
+- [Week 3b – Kotz Ch3: Stoichiometry](Chem205_Rogers_Week3b_Kotz-Ch3-1to3)
+- [Week 4 – Kotz Ch3: 4to6](Chem205_Rogers_Week4_Kotz-Ch3-4to6)
+- [Week 5 – Kotz Ch4: Thermochemistry (part 1)](Chem205_Rogers_Week5_Kotz-Ch4-6_Ch)
+- [Week 6 – Kotz Ch4: Thermochemistry (part 2)](Chem205_Rogers_Week6_Kotz-Ch4-part-I)
+- [Week 7 – Kotz Ch4: Thermochemistry (part 3)](Chem205_Rogers_Week7_Kotz-Ch4-partII)
+- [Week 8 – Kotz Ch8: Electronic Structure (part 1)](Chem205_Rogers_Week8_Kotz-Ch8-1to6)
+- [Week 9 – Kotz Ch6: Quantum Theory](Chem205_Rogers_Week9_Kotz-Ch6-7to-)
+- [Week 10 – Kotz Ch6: Atomic Structure (part 2)](Chem205_Rogers_Week10_Kotz-Ch6-3to-)
+- [Week 11 – Kotz Ch7: Periodic Properties](Chem205_Rogers_Week11_Kotz-Ch7-5to-)
+- [Week 12 – Kotz Ch10: Chemical Bonding](Chem205_Rogers_Week12_Kotz-Ch10_OS)

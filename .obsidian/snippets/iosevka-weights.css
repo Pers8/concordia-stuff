@@ -1,0 +1,266 @@
+/* === Iosevka Everywhere + Weight System for Obsidian (Full UI) ====== */
+/* Families */
+:root {
+  --font-interface: "Iosevka Nerd Font", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-text: "Iosevka Nerd Font", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --font-monospace: "Iosevka Nerd Font Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Sizes (subtle, modern, clean) */
+  --size-ui: 13.5px;
+  --size-text: 15.5px;
+  --size-code: 14px;
+  --size-h1: 1.60rem;   /* ~25.6px */
+  --size-h2: 1.40rem;   /* ~22.4px */
+  --size-h3: 1.22rem;   /* ~19.5px */
+  --size-h4: 1.10rem;
+  --size-h5: 1.00rem;
+  --size-h6: 0.95rem;
+
+  /* Weight map (Iosevka supports full range) */
+  --w-thin: 100;
+  --w-extralight: 200;
+  --w-light: 300;
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-semibold: 600;
+  --w-bold: 700;
+  --w-extrabold: 800;
+  --w-black: 900;
+
+  /* Accent (used by links in your other snippet) */
+  --link: #8fbaff;
+  --link-hover: #aacdff;
+}
+
+/* === Base app + editor === */
+body,
+.markdown-preview-view,
+.markdown-source-view {
+  font-family: var(--font-text);
+  font-size: var(--size-text);
+  font-weight: var(--w-regular);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* UI chrome */
+body,
+.workspace,
+.mod-root,
+.mod-legacy-theme .workspace,
+.titlebar,
+.status-bar {
+  font-family: var(--font-interface);
+  font-size: var(--size-ui);
+}
+
+/* Sidebars / file explorer */
+.nav-folder-title,
+.nav-file-title,
+.workspace-tab-header-inner,
+.view-header-title,
+.view-header-nav-buttons,
+.ribbon,
+.sidebar-toggle-button,
+.setting-item-name,
+.setting-item-description {
+  font-family: var(--font-interface);
+  font-weight: var(--w-medium); /* 500 for crisp UI labels */
+}
+.nav-file-title.is-active,
+.workspace-tab-header.is-active .workspace-tab-header-inner,
+.view-header-title {
+  font-weight: var(--w-semibold); /* 600 when active */
+}
+
+/* Status bar: subtle, readable */
+.status-bar {
+  font-weight: var(--w-regular);
+  letter-spacing: 0.01em;
+}
+
+/* Modals / prompts */
+.modal,
+.prompt,
+.menu {
+  font-family: var(--font-interface);
+  font-weight: var(--w-regular);
+}
+
+/* === Headings in notes === */
+.markdown-preview-view h1,
+.markdown-source-view h1 {
+  font-family: var(--font-text);
+  font-size: var(--size-h1);
+  font-weight: var(--w-extrabold); /* 800 */
+  line-height: 1.25;
+}
+.markdown-preview-view h2,
+.markdown-source-view h2 {
+  font-size: var(--size-h2);
+  font-weight: var(--w-bold);      /* 700 */
+  line-height: 1.3;
+}
+.markdown-preview-view h3,
+.markdown-source-view h3 {
+  font-size: var(--size-h3);
+  font-weight: var(--w-semibold);  /* 600 */
+}
+.markdown-preview-view h4,
+.markdown-source-view h4 {
+  font-size: var(--size-h4);
+  font-weight: var(--w-medium);    /* 500 */
+}
+.markdown-preview-view h5,
+.markdown-source-view h5 {
+  font-size: var(--size-h5);
+  font-weight: var(--w-regular);   /* 400 */
+  opacity: 0.95;
+}
+.markdown-preview-view h6,
+.markdown-source-view h6 {
+  font-size: var(--size-h6);
+  font-weight: var(--w-light);     /* 300 */
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* Paragraphs & small text */
+.markdown-preview-view p,
+.markdown-source-view p { font-weight: var(--w-regular); }
+.small-text,
+.cm-s-obsidian .cm-comment { font-weight: var(--w-light); }
+
+/* Emphasis */
+em { font-style: italic; font-weight: var(--w-regular); }
+strong { font-weight: var(--w-bold); }
+strong em, em strong { font-weight: var(--w-bold); font-style: italic; }
+
+/* Blockquotes: light + italic for nice contrast */
+.markdown-preview-view blockquote,
+.markdown-source-view blockquote {
+  font-weight: var(--w-light);
+  font-style: italic;
+}
+
+/* Lists */
+ul > li, ol > li { font-weight: var(--w-regular); }
+ul > li > p:first-child, ol > li > p:first-child { font-weight: var(--w-regular); }
+
+/* Tables */
+.markdown-preview-view table th { font-weight: var(--w-semibold); }
+.markdown-preview-view table td { font-weight: var(--w-regular); }
+
+/* Code (inline + blocks) */
+code, .cm-inline-code,
+.markdown-preview-view pre,
+.cm-s-obsidian .HyperMD-codeblock,
+.cm-s-obsidian .cm-line.HyperMD-codeblock {
+  font-family: var(--font-monospace);
+  font-size: var(--size-code);
+  font-weight: var(--w-medium); /* mono reads nicely at 500 */
+}
+
+/* Callouts: title a bit stronger */
+.callout .callout-title { font-weight: var(--w-semibold); }
+
+/* === Inline weight utilities === */
+.w-thin      { font-weight: var(--w-thin) !important; }
+.w-extralight{ font-weight: var(--w-extralight) !important; }
+.w-light     { font-weight: var(--w-light) !important; }
+.w-regular   { font-weight: var(--w-regular) !important; }
+.w-medium    { font-weight: var(--w-medium) !important; }
+.w-semibold  { font-weight: var(--w-semibold) !important; }
+.w-bold      { font-weight: var(--w-bold) !important; }
+.w-extrabold { font-weight: var(--w-extrabold) !important; }
+.w-black     { font-weight: var(--w-black) !important; }
+
+/* Optional: map ==highlight== to Heavy (easy inline emphasis) */
+.markdown-preview-view mark { font-weight: var(--w-black); }
+
+/* ==================================================================== */
+/* =====================  UI WEIGHT EXTENSIONS  ======================= */
+/* Make thickness consistent across the whole interface.                */
+/* Tune numbers if you want stronger/lighter in any zone.              */
+/* ==================================================================== */
+
+/* Tabs */
+.workspace-tab-header-inner        { font-weight: var(--w-medium); }
+.workspace-tab-header:hover .workspace-tab-header-inner { font-weight: var(--w-semibold); }
+.workspace-tab-header.is-active .workspace-tab-header-inner { font-weight: var(--w-semibold); }
+.workspace-tab-header.is-flashing .workspace-tab-header-inner { font-weight: var(--w-bold); }
+
+/* Pane headers */
+.view-header-title                 { font-weight: var(--w-semibold); }
+.view-header-breadcrumbs, .view-header-nav-buttons { font-weight: var(--w-medium); }
+
+/* File explorer */
+.nav-folder-title                  { font-weight: var(--w-medium); }
+.nav-file-title                    { font-weight: var(--w-regular); }
+.nav-file-title:hover              { font-weight: var(--w-medium); }
+.nav-file-title.is-active          { font-weight: var(--w-semibold); }
+
+/* Outline & backlinks panes */
+.outline .tree-item-self .tree-item-inner,
+.backlink-pane .tree-item-self .tree-item-inner,
+.outgoing-link-pane .tree-item-self .tree-item-inner { font-weight: var(--w-regular); }
+.outline .tree-item-self.is-active .tree-item-inner,
+.backlink-pane .tree-item-self.is-active .tree-item-inner,
+.outgoing-link-pane .tree-item-self.is-active .tree-item-inner { font-weight: var(--w-semibold); }
+
+/* Search panel */
+.search-input, .search-input input  { font-weight: var(--w-regular); }
+.search-result-file-title           { font-weight: var(--w-semibold); }
+.search-result-file-matches         { font-weight: var(--w-regular); }
+.search-result-collapse-indicator   { font-weight: var(--w-medium); }
+
+/* Quick Switcher / Command Palette */
+.prompt                              { font-weight: var(--w-regular); }
+.prompt .prompt-input                { font-weight: var(--w-regular); }
+.suggestion-container .suggestion-item { font-weight: var(--w-regular); }
+.suggestion-container .suggestion-item.is-selected { font-weight: var(--w-semibold); }
+.suggestion-container .suggestion-item .suggestion-hotkey { font-weight: var(--w-medium); }
+
+/* Settings */
+.setting-item-name                   { font-weight: var(--w-semibold); }
+.setting-item-description            { font-weight: var(--w-regular); }
+.setting-item-control .checkbox-container,
+.setting-item-control .dropdown,
+.setting-item-control input[type="text"],
+.setting-item-control input[type="search"] { font-weight: var(--w-regular); }
+.modal.mod-settings .vertical-tab-nav-item { font-weight: var(--w-regular); }
+.modal.mod-settings .vertical-tab-nav-item.is-active { font-weight: var(--w-semibold); }
+
+/* Buttons & toggles */
+button, .clickable-icon, .mod-cta { font-weight: var(--w-medium); }
+button:hover, .clickable-icon:hover, .mod-cta:hover { font-weight: var(--w-semibold); }
+
+/* Editor chrome */
+.cm-gutters { font-family: var(--font-interface); font-weight: var(--w-light); } /* line numbers */
+.cm-s-obsidian .cm-foldPlaceholder { font-weight: var(--w-medium); }
+.cm-s-obsidian .cm-header          { font-weight: inherit; } /* keep heading weights set above */
+.cm-s-obsidian .cm-strong          { font-weight: var(--w-bold); }
+.cm-s-obsidian .cm-em              { font-style: italic; }
+
+/* Breadcrumbs (if plugin adds .breadcrumbs) */
+.breadcrumbs, .breadcrumbs .breadcrumb { font-weight: var(--w-medium); }
+.breadcrumbs .breadcrumb.is-active     { font-weight: var(--w-semibold); }
+
+/* Ribbon & status bits */
+.workspace-ribbon-collapse-btn, .workspace-ribbon .side-dock-actions { font-weight: var(--w-medium); }
+.status-bar                         { font-weight: var(--w-regular); }
+.status-bar .status-bar-item        { font-weight: var(--w-regular); }
+.status-bar .status-bar-item:hover  { font-weight: var(--w-medium); }
+
+/* Context menus */
+.menu .menu-item                    { font-weight: var(--w-regular); }
+.menu .menu-item:hover,
+.menu .menu-item.is-active          { font-weight: var(--w-medium); }
+
+/* Inputs / placeholders */
+input, textarea, select { font-family: var(--font-interface); font-weight: var(--w-regular); }
+input::placeholder, textarea::placeholder { font-weight: var(--w-light); }
+
+/* Dataview/Code fences titles (common patterns) */
+.cm-s-obsidian .code-title,
+.markdown-preview-view .code-title { font-weight: var(--w-medium); }

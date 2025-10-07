@@ -1,0 +1,14 @@
+{
+  "theme": "obsidian",
+  "interfaceFontFamily": "Iosevka Nerd Font",
+  "textFontFamily": "Iosevka Nerd Font,JetBrainsMono-2.304",
+  "baseFontSize": 22,
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "homepage",
+    "ml-dashboard",
+    "iosevka-weights"
+  ],
+  "monospaceFontFamily": "Iosevka Nerd Font"
+}

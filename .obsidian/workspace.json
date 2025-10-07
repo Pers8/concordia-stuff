@@ -1,0 +1,310 @@
+{
+  "main": {
+    "id": "fcb7c1c72afe276f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4baf8a401619a246",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "772aa1ea6a435b1a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "31190799103218a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/BIOL202_Lec2.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIOL202_Lec2"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43460d0853ad7f15",
+    "type": "split",
+    "children": [
+      {
+        "id": "2206230978303d6c",
+        "type": "tabs",
+        "dimension": 72.3963599595551,
+        "children": [
+          {
+            "id": "46d540e40599cf59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3506acd007e6f3b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3b83f0821304a8a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a80129474a52e158",
+        "type": "tabs",
+        "dimension": 27.603640040444894,
+        "children": [
+          {
+            "id": "b0a13ec43587d7a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 277.5
+  },
+  "right": {
+    "id": "4f31a26b24da79a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b634d22100d2545",
+        "type": "tabs",
+        "dimension": 67.65873015873017,
+        "children": [
+          {
+            "id": "c2acaf66dc3500a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Home"
+            }
+          },
+          {
+            "id": "a558821fd8211aa7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Home"
+            }
+          },
+          {
+            "id": "bec14739151c4236",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "42b9c1f45393fbf1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Home"
+            }
+          },
+          {
+            "id": "87cbd652c444a02a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ccec46cc91a3e131",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
+            "id": "467c56945a71ab47",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "71790e4650ff9bc0",
+        "type": "tabs",
+        "dimension": 32.34126984126984,
+        "children": [
+          {
+            "id": "eb88e0f312033af8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "ace-code-editor:Open CSS snippet manager": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "callout-manager:Insert Callout": false,
+      "notion-like-tables:Create loom": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "31190799103218a9",
+  "lastOpenFiles": [
+    "files/BIOL202_Lec3.md",
+    "Untitled.md",
+    "assets/Pasted image 20251006135257.png",
+    "assets/Pasted image 20251006135254.png",
+    "assets/Pasted image 20251006130236.png",
+    "assets/Pasted image 20251006130158.png",
+    "assets/Pasted image 20251006125719.png",
+    "files/BIOL202_Lec2.md",
+    "Untitled.base",
+    "files/BIOL202_Lec1.md",
+    "files/CHEM205_Lec0.md",
+    "files/Untitled.md",
+    "fall/BIOL 202.md",
+    "BIOL202_Lec6.md",
+    "fall/CHEM 205.md",
+    "Dashboard.md",
+    "winter/BIOL 201.md",
+    "assets/Pasted image 20250929153129.png",
+    "assets/Pasted image 20250929152944.png",
+    "assets/Pasted image 20250929150432.png",
+    "files/Test.md",
+    "assets/Pasted image 20250929145556.png",
+    "assets/Pasted image 20250929095552.png",
+    "Prep.md",
+    "fall/MATH 204.md",
+    "files",
+    "winter/PHYS 205.md",
+    "fall/BIOL 201.md",
+    "fall/PHYS 205.md",
+    "fall/MATH 205.md",
+    "fall/COEN 243.md",
+    "fall",
+    "winter/COEN 243.md",
+    "winter/MATH 205.md",
+    "fall/PHYS 204.md",
+    "core_libraries/Matplotlib.md",
+    "core_libraries/Pandas.md",
+    "👈 Back to Dashboard.md",
+    "quick_links/Concepts to Master.md",
+    "quick_links",
+    "winter",
+    "assets"
+  ]
+}

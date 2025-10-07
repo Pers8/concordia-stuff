@@ -12,7 +12,6 @@
 - The number of protons =:: atomic number.  
 - Example (Carbon atom):: has 6 protons, 6 neutrons, 6 electrons.  
 
-
 ## 2.2 Four Major Elements in Living Organisms  
 
 - The four major elements in living organisms are:: Hydrogen (H), Carbon (C), Nitrogen (N), Oxygen (O).  

@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "files/BIOL202_Lec3.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -276,7 +276,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0a13ec43587d7a5",
+  "active": "369d2c8fc8fac0db",
   "lastOpenFiles": [
     "files/BIOL202_Lec3.md",
     "files/BIOL202_Lec4.md",

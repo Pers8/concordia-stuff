@@ -1,5 +1,5 @@
 {
-  "bgColorEnabled": false,
+  "bgColorEnabled": true,
   "bgColor": "#ffffff",
   "opMode": "BalanceMode",
   "zoomByWheelAndGesture": true,

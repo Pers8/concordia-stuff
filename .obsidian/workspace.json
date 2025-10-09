@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/BIOL202_Lec4.md",
-                "mode": "source",
+                "file": "files/BIOL202_Lec3.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIOL202_Lec4"
+              "title": "BIOL202_Lec3"
             }
           }
         ],
@@ -278,8 +278,8 @@
   },
   "active": "369d2c8fc8fac0db",
   "lastOpenFiles": [
-    "files/BIOL202_Lec3.md",
     "files/BIOL202_Lec4.md",
+    "files/BIOL202_Lec3.md",
     "files/BIOL202_Lec2.md",
     "files/BIOL202_Lec1.md",
     "assets/Pasted image 20251006135257.png",

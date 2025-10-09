@@ -24,6 +24,7 @@
 
 ![[Pasted image 20251006130158.png|350]] 
 
+
 ## 3.3 Acids and Bases  
 
 - **Acids:**  

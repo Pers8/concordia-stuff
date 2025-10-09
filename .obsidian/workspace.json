@@ -41,12 +41,14 @@
             "id": "369d2c8fc8fac0db",
             "type": "leaf",
             "state": {
-              "type": "html-view",
+              "type": "markdown",
               "state": {
-                "file": "files/full_body_skincare_routine_interactive_hover_table_html.html"
+                "file": "files/BIOL202_Lec4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "code-glyph",
-              "title": "full_body_skincare_routine_interactive_hover_table_html"
+              "icon": "lucide-file",
+              "title": "BIOL202_Lec4"
             }
           }
         ],
@@ -276,8 +278,9 @@
   },
   "active": "369d2c8fc8fac0db",
   "lastOpenFiles": [
-    "files/BIOL202_Lec4.md",
+    "files/CHEM205_Lec0.md",
     "files/full_body_skincare_routine_interactive_hover_table_html.html",
+    "files/BIOL202_Lec4.md",
     "files/BIOL202_Lec3.md",
     "files/BIOL202_Lec2.md",
     "files/BIOL202_Lec1.md",
@@ -287,7 +290,6 @@
     "assets/Pasted image 20251006130158.png",
     "assets/Pasted image 20251006125719.png",
     "Untitled.base",
-    "files/CHEM205_Lec0.md",
     "files/Untitled.md",
     "fall/BIOL 202.md",
     "BIOL202_Lec6.md",

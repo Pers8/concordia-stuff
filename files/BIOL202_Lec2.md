@@ -37,6 +37,7 @@
   - Carbon-14 → 6 protons, 8 neutrons  (trace radioactive isotope)  
 - Carbon-14 is:: used in radiocarbon dating.
 
+
 ## 2.4 Electron Shells  
 
 - Electrons orbit:: the nucleus in specific energy levels called shells.  

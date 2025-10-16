@@ -1,6 +1,7 @@
 # Week 2 – Chemistry of Life 
 #biol202/lec2 
 
+
 ## 2.1 Structure of the Atom  
 
 - Atoms are composed of:: three subatomic particles.  

@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/BIOL202_Lec4.md",
-                "mode": "source",
+                "file": "files/BIOL202_Lec2.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIOL202_Lec4"
+              "title": "BIOL202_Lec2"
             }
           }
         ],
@@ -276,13 +276,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "46d540e40599cf59",
+  "active": "b0a13ec43587d7a5",
   "lastOpenFiles": [
+    "files/BIOL202_Lec2.md",
+    "files/BIOL202_Lec3.md",
+    "files/BIOL202_Lec4.md",
     "files/CHEM205_Lec0.md",
     "files/full_body_skincare_routine_interactive_hover_table_html.html",
-    "files/BIOL202_Lec4.md",
-    "files/BIOL202_Lec3.md",
-    "files/BIOL202_Lec2.md",
     "files/BIOL202_Lec1.md",
     "assets/Pasted image 20251006135257.png",
     "assets/Pasted image 20251006135254.png",

@@ -1802,5 +1802,203 @@ export default function App(){
                     color: selectedVaults.size === 0 ? '#6B8099' : '#ff6b6b',
                     fontSize: 11,
                     cursor: selectedVaults.size === 0 ? 'not-allowed' : 'pointer',
-                    transition: 'all 220ms cubic-bezier(0.2, 0.8, 0.2,
+                    transition: 'all 220ms cubic-bezier(0.2, 0.8, 0.2, 1)',
+                    fontWeight: 700,
+                    letterSpacing: '0.03em',
+                    boxShadow: selectedVaults.size === 0 ? 'none' : 'inset 0 1px 0 rgba(255,255,255,0.1)',
+                  }}
+                  onMouseEnter={e => {
+                    if (selectedVaults.size !== 0) {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(255,107,107,0.28), rgba(255,107,107,0.15))'
+                      e.currentTarget.style.transform = 'translateY(-2px)'
+                      e.currentTarget.style.boxShadow = 'inset 0 1px 0 rgba(255,255,255,0.1), 0 4px 12px rgba(255,107,107,0.25)'
+                    }
+                  }}
+                  onMouseLeave={e => {
+                    if (selectedVaults.size !== 0) {
+                      e.currentTarget.style.background = 'linear-gradient(135deg, rgba(255,107,107,0.2), rgba(255,107,107,0.1))'
+                      e.currentTarget.style.transform = 'translateY(0)'
+                      e.currentTarget.style.boxShadow = 'inset 0 1px 0 rgba(255,255,255,0.1)'
+                    }
+                  }}
+                >
+                  🗑 Remove Selected
+                </button>
+              </div>
+            </div>
+          )}
+
+          <div className="mt-2 flex-1 min-h-0 scrollerClip">
+            <div className="custom-scroll pr-1">
+              <VaultList
+                items={filteredVaults} selectedId={sel} onSelect={setSel}
+                onOpenPath={(id:any)=>window.electronAPI.openPath(id)}
+                onRemove={removeVault} onRename={renameVault}
+                bulkMode={bulkMode} selectedVaults={selectedVaults}
+                onToggleBulkSelect={toggleBulkSelect} syncStatus={syncStatus}
+                vaultStats={vaultStats}
+              />
+            </div>
+          </div>
+
+          <div className="text-[10px] pt-2" style={{ color: '#6B8099' }}>Press ⌘S to sync • ? for shortcuts</div>
+        </aside>
+
+        <main className="h-[calc(100%-2.5rem)] m-3 ml-2 p-4 border rounded-xl panel" style={{
+          backgroundColor: 'rgba(6, 22, 42, 0.65)', borderColor: 'rgba(52, 86, 123, 0.5)',
+          backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(6px)', overflow: 'hidden',
+          backgroundImage:
+            'radial-gradient(circle at 0.5px 0.5px, rgba(255,255,255,0.1) 0.2px, transparent 1px), ' +
+            'radial-gradient(circle at 1.5px 1.5px, rgba(0,0,0,0.1) 0.2px, transparent 1px), ' +
+            'radial-gradient(circle at 0 0, rgba(255,255,255,0.1) 1px, transparent 1.2px)',
+          backgroundSize: '2px 2px, 2px 2px, 6px 6px',
+          backgroundBlendMode: 'overlay, overlay, overlay',
+          filter: 'contrast(110%) brightness(102.5%)',
+        }}>
+          <div className="h-full">
+            {selected ? (
+              <VaultSettings
+                key={selected.id} value={selected}
+                onChange={(nv: any) => saveVaults(vaults.map(v => v.id === nv.id ? nv : v))}
+                onPick={() => pickFolder(selected)} onSync={() => syncNow(selected)}
+                onShowHistory={() => { setHistoryVaultId(selected.id); setHistoryOpen(true) }}
+                stats={vaultStats[selected.id]}
+                vaultColor={selected.color}
+                onOpenGitHub={() => {
+                  if (!selected.repoUrl) return
+                  let url = selected.repoUrl.trim()
+                  if (url.startsWith('git@github.com:')) {
+                    url = url.replace('git@github.com:', 'https://github.com/')
+                  }
+                  if (url.startsWith('ssh://git@github.com/')) {
+                    url = url.replace('ssh://git@github.com/', 'https://github.com/')
+                  }
+                  url = url.replace(/\.git$/, '')
+                  if (!/^https?:\/\//.test(url)) {
+                    url = `https://github.com/${url}`
+                  }
+                  const branch = (selected.branch || 'main').trim()
+                  const fullUrl = `${url}/tree/${encodeURIComponent(branch)}`
+                  window.electronAPI?.openExternal?.(fullUrl)
+                }}
+              />
+            ) : (
+              <div className="h-full flex items-center justify-center" style={{ color: '#6B8099' }}>
+                <div style={{ textAlign: 'center' }}>
+                  <Plus style={{ width: 56, height: 56, opacity: 0.2, margin: '0 auto 16px' }} />
+                  <div>Select a vault or press ⌘N to add one.</div>
+                </div>
+              </div>
+            )}
+          </div>
+        </main>
+      </div>
+
+      <StatusBar vaults={vaults} vaultStats={vaultStats} syncStatus={syncStatus} />
+      <NotificationDrawer
+        open={notifDrawerOpen}
+        notifications={notifications}
+        notifFilter={notifFilter}
+        unreadCount={unreadCount}
+        onFilterChange={setNotifFilter}
+        onToggleRead={(id) => {
+          const next = notifications.map(notif => notif.id === id ? { ...notif, read: !notif.read } : notif)
+          saveNotifications(next)
+        }}
+        onClearAll={() => saveNotifications([])}
+        onClose={() => setNotifDrawerOpen(false)}
+      />
+      <HistoryModal
+        open={historyOpen}
+        vault={vaults.find(v => v.id === historyVaultId) || null}
+        rawLines={(historyVaultId && gitHistory[historyVaultId]) ? gitHistory[historyVaultId] : []}
+        search={historySearch}
+        onSearch={setHistorySearch}
+        onClose={() => { setHistoryOpen(false); setHistoryVaultId(null); setHistorySearch('') }}
+        onExport={() => {
+          const vault = vaults.find(v => v.id === historyVaultId)
+          const lines = (historyVaultId && gitHistory[historyVaultId]) ? gitHistory[historyVaultId] : []
+          if (!vault || lines.length === 0) return
+          const items = lines.map(line => {
+            const parts = line.split('|')
+            const [hash='', iso='', authorName='', authorEmail='', subject='', ...rest] = parts
+            const body = rest.join('|')
+            return { hash, iso, authorName, authorEmail, subject, body }
+          })
+          const esc = (s: string) => {
+            const v = s ?? ''
+            if (v.includes('"') || v.includes(',') || v.includes('\n')) {
+              return `"${v.replace(/"/g, '""')}"`
+            }
+            return v
+          }
+          const header = 'hash,iso,authorName,authorEmail,subject,body'
+          const rows = items.map(i => [i.hash, i.iso, i.authorName, i.authorEmail, i.subject, i.body].map(esc).join(',')).join('\n')
+          const csv = header + '\n' + rows
+          const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' })
+          const url = URL.createObjectURL(blob)
+          const a = document.createElement('a')
+          a.href = url
+          a.download = `git-history-${vault.name || vault.id}-${new Date().toISOString().slice(0,10)}.csv`
+          a.click()
+          URL.revokeObjectURL(url)
+          setShowToast({ message: 'Git history exported to CSV', type: 'success' })
+          setTimeout(() => setShowToast(null), 3000)
+        }}
+      />
+      <ShortcutsModal open={shortcutsOpen} onClose={() => setShortcutsOpen(false)} />
+      <Toast showToast={showToast} />
+
+      <style>{`
+        @keyframes slideUpFade { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideDownFade { 
+          from { opacity: 0; transform: translateY(-12px) scaleY(0.95); } 
+          to { opacity: 1; transform: translateY(0) scaleY(1); } 
+        }
+        @keyframes barGrow {
+          from { transform: scaleY(0); opacity: 0; }
+          to { transform: scaleY(1); opacity: 1; }
+        }
+        @keyframes pulse {
+          0%, 100% { opacity: 0.6; transform: scale(1); }
+          50% { opacity: 1; transform: scale(1.2); }
+        }
+        
+        .titlebar{
+          position: absolute; top: 0; left: 0; right: 0; height: 40px;
+          display: flex; align-items: center; justify-content: space-between;
+          padding: 0 10px 0 14px;
+          background: linear-gradient(to bottom, rgba(10,16,35,.85), rgba(10,16,35,.35));
+          border-bottom: 1.5px solid rgba(80,120,180,.28);
+          backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+          z-index: 20000; -webkit-app-region: drag;
+        }
+        .tb-left{ display:flex; align-items:center; gap:10px; min-width:0; }
+        .tb-title{ font-size:13px; letter-spacing:.04em; color:#c9d6f3; opacity:.9; }
+        .tb-right{ display:flex; align-items:center; gap:6px; -webkit-app-region: no-drag; }
+        .tb-btn{ appearance:none; border:0; background:transparent; width:30px; height:30px; border-radius:9px; display:inline-flex; align-items:center; justify-content:center; cursor:pointer; transition: transform 140ms ease, background 140ms ease, opacity 140ms ease; opacity:.9; }
+        .tb-btn:hover{ background: rgba(255,255,255,.06); transform: scale(1.03); opacity:1; }
+        .tb-btn:active{ transform: scale(.98); }
+        .tb-icon{ width:13.5px; height:13.5px; opacity:.9; }
+        .tb-icon path, .tb-icon circle{ stroke:#cfe0ff; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round; }
+
+        .withTitlebar{ padding-top: 40px; }
+        .scrollerClip{ position: relative; overflow: hidden; height: 100%; padding-right: 8px; }
+
+        .custom-scroll{ height: 100%; overflow-y: auto; overflow-x: hidden; scrollbar-gutter: stable; margin-right: -10px; padding-right: 10px; }
+        @supports not selector(::-webkit-scrollbar) { .custom-scroll{ scrollbar-width: thin; scrollbar-color: rgba(128,191,255,0.3) transparent; } }
+        .custom-scroll::-webkit-scrollbar{ width: 6px; background: transparent; }
+        .custom-scroll::-webkit-scrollbar-track{ background: rgba(10,10,10,0.35); border-radius: 999px; border: 1px solid rgba(255,255,255,0.075); }
+        .custom-scroll::-webkit-scrollbar-thumb{ background: linear-gradient(to bottom, rgba(128,191,255,0.4), rgba(128,191,255,0.25)); border-radius: 999px; }
+
+        .search-input{
+          width: 100%; background: rgba(16,28,48,0.7); border: 1.5px solid rgba(52,86,123,0.4);
+          border-radius: 11px; padding: 8px 12px 8px 36px; color: #C5D4E8; font-size: 12.5px;
+          outline: none; transition: all 200ms ease; font-weight: 500;
+        }
+        .search-input::placeholder{ color: #6B8099; }
+      `}</style>
+    </>
+  )
+}
 ```

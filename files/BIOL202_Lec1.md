@@ -6,7 +6,8 @@
 - Biology is:: the scientific study of living organisms.
 <!--SR:!2025-10-20,1,230-->
 - Biology literally means:: "study of life."  
-- Examples of organisms studied in biology include:: humans, animals (e.g., bass), fungi (e.g., mushrooms), plants (e.g., lotus), protists (e.g., amoeba), and bacteria (e.g., *E. coli*).  
+- Examples of organisms studied in biology include:: humans, animals (e.g., bass), fungi (e.g., mushrooms), plants (e.g., lotus), protists (e.g., amoeba), and bacteria (e.g., *E. coli*).
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.2 Biology = Study of Life  
 
@@ -68,7 +69,8 @@ Examples of metabolic reactions:
 
 - Living organisms are mainly made of:: organic molecules.
 <!--SR:!2025-10-20,1,230-->
-- Organic molecules are defined as:: molecules that contain carbon.  
+- Organic molecules are defined as:: molecules that contain carbon.
+<!--SR:!2025-10-20,1,230-->
 - Main classes of organic molecules in biology are:
 ?
   - Carbohydrates  
@@ -97,7 +99,8 @@ Examples: gold, carbon, copper.
 ## 1.12 Chemical Elements  
 
 - Elements are:: different types of atoms.  
-- Elements with different atomic numbers:: have different chemical properties.  
+- Elements with different atomic numbers:: have different chemical properties.
+<!--SR:!2025-10-20,1,230-->
 - Examples:  
   - Gold (atomic number 79)  
   - Carbon (atomic number 6)  

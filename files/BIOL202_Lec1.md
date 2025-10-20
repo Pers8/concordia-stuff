@@ -95,7 +95,8 @@ Examples of metabolic reactions:
 
 ## 1.10 Evolution  
 
-- Evolution is defined as:: the process of species change over time.  
+- Evolution is defined as:: the process of species change over time.
+<!--SR:!2025-10-20,1,230-->
 - All organisms alive today descended from:: earlier species.
 <!--SR:!2025-10-20,1,230-->
 - Evidence of evolution:: fossil record (e.g., evolution of whales).
@@ -155,7 +156,8 @@ Examples: gold, carbon, copper.
 
 ## 1.16 Atomic Number and Hydrogen Example  
 
-- The number of protons =:: atomic number.  
+- The number of protons =:: atomic number.
+<!--SR:!2025-10-20,1,230-->
 - Normally, the number of electrons =:: the number of protons.
 <!--SR:!2025-10-20,1,230-->
 - Hydrogen atom has:: one proton, one electron, and no neutrons.

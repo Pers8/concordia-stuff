@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/BIOL202_Lec1.md",
+                "file": "files/BIOL202_Lec2.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BIOL202_Lec1"
+              "title": "BIOL202_Lec2"
             }
           }
         ],
@@ -278,8 +278,8 @@
   },
   "active": "369d2c8fc8fac0db",
   "lastOpenFiles": [
-    "files/BIOL202_Lec2.md",
     "files/BIOL202_Lec1.md",
+    "files/BIOL202_Lec2.md",
     "Untitled.md",
     "eff.md",
     "Test.md",

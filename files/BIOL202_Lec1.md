@@ -60,7 +60,8 @@
 <!--SR:!2025-10-20,1,230-->
 - Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).
 <!--SR:!2025-10-20,1,230-->
-- Metabolism is:: the set of chemical reactions in organisms that create or break down molecules.  
+- Metabolism is:: the set of chemical reactions in organisms that create or break down molecules.
+<!--SR:!2025-10-20,1,230-->
 
 Examples of metabolic reactions:  
 - Starch → sugar  
@@ -131,7 +132,8 @@ Examples: gold, carbon, copper.
   - Proton → positive charge  
   - Neutron → no charge  
   - Electron → negative charge  
-- Protons + neutrons are located in:: the nucleus.  
+- Protons + neutrons are located in:: the nucleus.
+<!--SR:!2025-10-20,1,230-->
 - Electrons orbit:: around the nucleus.
 <!--SR:!2025-10-20,1,230-->
 

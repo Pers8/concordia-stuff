@@ -42,11 +42,13 @@
 - Multicellular organism:: an individual made of multiple cells, usually large (some microscopic), for example humans.
 <!--SR:!2025-10-20,1,230-->
 
-- Examples of organisms made of cells include:: plants (leaf tissue), animals (human gall bladder tissue), protists (amoeba), and bacteria (*Salmonella*).  
+- Examples of organisms made of cells include:: plants (leaf tissue), animals (human gall bladder tissue), protists (amoeba), and bacteria (*Salmonella*).
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.6 Cells Reproduce by Cell Division  
 
-- Cells reproduce by:: cell division.  
+- Cells reproduce by:: cell division.
+<!--SR:!2025-10-20,1,230-->
 - In multicellular organisms, new body cells and body forms are created through:: repeated cell divisions.
 <!--SR:!2025-10-20,1,230-->
 - Example of cell division in development:: a sea urchin egg divides → forms embryo → develops into an adult sea urchin.
@@ -112,7 +114,8 @@ Examples of metabolic reactions:
 <!--SR:!2025-10-20,1,230-->
 - Everything (living or non-living):: is made of atoms.
 <!--SR:!2025-10-20,1,230-->
-- Atoms cannot be:: broken down by chemical methods.  
+- Atoms cannot be:: broken down by chemical methods.
+<!--SR:!2025-10-20,1,230-->
 
 Examples: gold, carbon, copper.  
 
@@ -129,7 +132,8 @@ Examples: gold, carbon, copper.
 
 ## 1.13 Periodic Table Basics  
 
-- Chemical elements are organized:: by atomic number.  
+- Chemical elements are organized:: by atomic number.
+<!--SR:!2025-10-20,1,230-->
 - Four major elements in living organisms are:
 ?
   - H (hydrogen) → atomic number 1

@@ -5,7 +5,8 @@
 
 - Biology is:: the scientific study of living organisms.
 <!--SR:!2025-10-20,1,230-->
-- Biology literally means:: "study of life."  
+- Biology literally means:: "study of life."
+<!--SR:!2025-10-20,1,230-->
 - Examples of organisms studied in biology include:: humans, animals (e.g., bass), fungi (e.g., mushrooms), plants (e.g., lotus), protists (e.g., amoeba), and bacteria (e.g., *E. coli*).
 <!--SR:!2025-10-20,1,230-->
 
@@ -137,7 +138,8 @@ Examples: gold, carbon, copper.
 ## 1.16 Atomic Number and Hydrogen Example  
 
 - The number of protons =:: atomic number.  
-- Normally, the number of electrons =:: the number of protons.  
+- Normally, the number of electrons =:: the number of protons.
+<!--SR:!2025-10-20,1,230-->
 - Hydrogen atom has:: one proton, one electron, and no neutrons.
 <!--SR:!2025-10-20,1,230-->
 

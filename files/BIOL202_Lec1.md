@@ -4,77 +4,77 @@
 ## 1.1 What is Biology?  
 
 - Biology is:: the scientific study of living organisms.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Biology literally means:: "study of life."
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Examples of organisms studied in biology include:: humans, animals (e.g., bass), fungi (e.g., mushrooms), plants (e.g., lotus), protists (e.g., amoeba), and bacteria (e.g., *E. coli*).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.2 Biology = Study of Life  
 
 - Biology is the study of:: life.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - The central question of biology is:: What is life?
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.3 What makes living organisms different from non-living materials?  
 
 - A key question in biology is:: what distinguishes living matter from non-living matter.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Non-living examples include:: rocks, rings, or furniture.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Living examples include:: mouse, amoeba, lotus (plant).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.4 Common Features of Living Organisms  
 
 - One of the defining features of living organisms is:: they are made of cells.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - The cell is:: the smallest unit of life.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.5 Organisms are Made of Cells  
 
 - Unicellular organism:: an individual made of only one cell (seen only with a microscope).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
   - Example:: bacteria (*Salmonella*)
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Multicellular organism:: an individual made of multiple cells, usually large (some microscopic), for example humans.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 - Examples of organisms made of cells include:: plants (leaf tissue), animals (human gall bladder tissue), protists (amoeba), and bacteria (*Salmonella*).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.6 Cells Reproduce by Cell Division  
 
 - Cells reproduce by:: cell division.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - In multicellular organisms, new body cells and body forms are created through:: repeated cell divisions.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Example of cell division in development:: a sea urchin egg divides → forms embryo → develops into an adult sea urchin.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.7 Organisms Use DNA as Genetic Blueprints  
 
 - DNA is the:: genetic blueprint of life.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - DNA is stored in:: the nucleus (in eukaryotic cells).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - The role of DNA is to:: carry genetic instructions for reproduction, growth, and cell function.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.8 Organisms Use & Transform Energy  
 
 - Living organisms require:: energy to survive and function.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Metabolism is:: the set of chemical reactions in organisms that create or break down molecules.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 Examples of metabolic reactions:  
 - Starch → sugar  
@@ -85,46 +85,46 @@ Examples of metabolic reactions:
 ## 1.9 Organic Molecules  
 
 - Living organisms are mainly made of:: organic molecules.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Organic molecules are defined as:: molecules that contain carbon.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Main classes of organic molecules in biology are:
 ?
   - Carbohydrates
   - Proteins
   - Lipids (oils, fats, etc.)
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.10 Evolution  
 
 - Evolution is defined as:: the process of species change over time.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - All organisms alive today descended from:: earlier species.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Evidence of evolution:: fossil record (e.g., evolution of whales).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - All species living today share:: a common ancestor.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.11 Atoms – The Smallest Unit of Matter  
 
 - An atom is:: the smallest unit of matter.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Everything (living or non-living):: is made of atoms.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Atoms cannot be:: broken down by chemical methods.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 Examples: gold, carbon, copper.  
 
 ## 1.12 Chemical Elements  
 
 - Elements are:: different types of atoms.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Elements with different atomic numbers:: have different chemical properties.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Examples:  
   - Gold (atomic number 79)  
   - Carbon (atomic number 6)  
@@ -133,14 +133,14 @@ Examples: gold, carbon, copper.
 ## 1.13 Periodic Table Basics  
 
 - Chemical elements are organized:: by atomic number.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Four major elements in living organisms are:
 ?
   - H (hydrogen) → atomic number 1
   - C (carbon) → atomic number 6
   - N (nitrogen) → atomic number 7
   - O (oxygen) → atomic number 8
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.14 Other Important Elements in Biology  
 
@@ -154,18 +154,18 @@ Examples: gold, carbon, copper.
   - Neutron → no charge  
   - Electron → negative charge  
 - Protons + neutrons are located in:: the nucleus.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Electrons orbit:: around the nucleus.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ## 1.16 Atomic Number and Hydrogen Example  
 
 - The number of protons =:: atomic number.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Normally, the number of electrons =:: the number of protons.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 - Hydrogen atom has:: one proton, one electron, and no neutrons.
-<!--SR:!2025-10-20,1,230-->
+<!--SR:!2025-10-21,1,210-->
 
 ---
 

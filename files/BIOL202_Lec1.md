@@ -41,14 +41,16 @@
 ## 1.7 Organisms Use DNA as Genetic Blueprints  
 
 - DNA is the:: genetic blueprint of life.  
-- DNA is stored in:: the nucleus (in eukaryotic cells).  
+- DNA is stored in:: the nucleus (in eukaryotic cells).
+<!--SR:!2025-10-20,1,230-->
 - The role of DNA is to:: carry genetic instructions for reproduction, growth, and cell function.  
 
 ## 1.8 Organisms Use & Transform Energy  
 
 - Living organisms require:: energy to survive and function.  
 - Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).  
-- Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).  
+- Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).
+<!--SR:!2025-10-20,1,230-->
 - Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).  
 - Metabolism is:: the set of chemical reactions in organisms that create or break down molecules.  
 

@@ -108,7 +108,8 @@ Examples: gold, carbon, copper.
 
 ## 1.15 Structure of an Atom  
 
-- An atom is made of:: three subatomic particles.  
+- An atom is made of three subatomic particles which are:
+?
   - Proton → positive charge  
   - Neutron → no charge  
   - Electron → negative charge  

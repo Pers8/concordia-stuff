@@ -21,7 +21,8 @@
 ## 1.4 Common Features of Living Organisms  
 
 - One of the defining features of living organisms is:: they are made of cells.  
-- The cell is:: the smallest unit of life.  
+- The cell is:: the smallest unit of life.
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.5 Organisms are Made of Cells  
 
@@ -70,14 +71,16 @@ Examples of metabolic reactions:
 ## 1.10 Evolution  
 
 - Evolution is defined as:: the process of species change over time.  
-- All organisms alive today descended from:: earlier species.  
+- All organisms alive today descended from:: earlier species.
+<!--SR:!2025-10-20,1,230-->
 - Evidence of evolution:: fossil record (e.g., evolution of whales).  
 - All species living today share:: a common ancestor.  
 - Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).  
 
 ## 1.11 Atoms – The Smallest Unit of Matter  
 
-- An atom is:: the smallest unit of matter.  
+- An atom is:: the smallest unit of matter.
+<!--SR:!2025-10-20,1,230-->
 - Everything (living or non-living):: is made of atoms.  
 - Atoms cannot be:: broken down by chemical methods.  
 

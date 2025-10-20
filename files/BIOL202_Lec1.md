@@ -12,8 +12,10 @@
 
 ## 1.2 Biology = Study of Life  
 
-- Biology is the study of:: life.  
-- The central question of biology is:: What is life?  
+- Biology is the study of:: life.
+<!--SR:!2025-10-20,1,230-->
+- The central question of biology is:: What is life?
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.3 What makes living organisms different from non-living materials?  
 
@@ -31,7 +33,8 @@
 
 ## 1.5 Organisms are Made of Cells  
 
-- Unicellular organism:: an individual made of only one cell (seen only with a microscope).  
+- Unicellular organism:: an individual made of only one cell (seen only with a microscope).
+<!--SR:!2025-10-20,1,230-->
   - Example:: bacteria (*Salmonella*)  
 - Multicellular organism:: an individual made of multiple cells, usually large (some microscopic), for example humans.
 <!--SR:!2025-10-20,1,230-->
@@ -48,10 +51,12 @@
 
 ## 1.7 Organisms Use DNA as Genetic Blueprints  
 
-- DNA is the:: genetic blueprint of life.  
+- DNA is the:: genetic blueprint of life.
+<!--SR:!2025-10-20,1,230-->
 - DNA is stored in:: the nucleus (in eukaryotic cells).
 <!--SR:!2025-10-20,1,230-->
-- The role of DNA is to:: carry genetic instructions for reproduction, growth, and cell function.  
+- The role of DNA is to:: carry genetic instructions for reproduction, growth, and cell function.
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.8 Organisms Use & Transform Energy  
 

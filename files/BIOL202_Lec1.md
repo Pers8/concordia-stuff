@@ -15,7 +15,8 @@
 ## 1.3 What makes living organisms different from non-living materials?  
 
 - A key question in biology is:: what distinguishes living matter from non-living matter.  
-- Non-living examples include:: rocks, rings, or furniture.  
+- Non-living examples include:: rocks, rings, or furniture.
+<!--SR:!2025-10-20,1,230-->
 - Living examples include:: mouse, amoeba, lotus (plant).  
 
 ## 1.4 Common Features of Living Organisms  
@@ -29,6 +30,7 @@
 - Unicellular organism:: an individual made of only one cell (seen only with a microscope).  
   - Example:: bacteria (*Salmonella*)  
 - Multicellular organism:: an individual made of multiple cells, usually large (some microscopic), for example humans.
+<!--SR:!2025-10-20,1,230-->
 
 - Examples of organisms made of cells include:: plants (leaf tissue), animals (human gall bladder tissue), protists (amoeba), and bacteria (*Salmonella*).  
 
@@ -76,7 +78,8 @@ Examples of metabolic reactions:
 - All organisms alive today descended from:: earlier species.
 <!--SR:!2025-10-20,1,230-->
 - Evidence of evolution:: fossil record (e.g., evolution of whales).  
-- All species living today share:: a common ancestor.  
+- All species living today share:: a common ancestor.
+<!--SR:!2025-10-20,1,230-->
 - Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).  
 
 ## 1.11 Atoms – The Smallest Unit of Matter  

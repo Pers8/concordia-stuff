@@ -70,7 +70,7 @@ Examples of metabolic reactions:
 ## 1.10 Evolution  
 
 - Evolution is defined as:: the process of species change over time.  
-- All organisms alive today:: descended from earlier species.  
+- All organisms alive today:: descended from :: earlier species.  
 - Evidence of evolution:: fossil record (e.g., evolution of whales).  
 - All species living today share:: a common ancestor.  
 - Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).  

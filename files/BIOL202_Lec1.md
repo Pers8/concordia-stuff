@@ -19,7 +19,8 @@
 
 ## 1.3 What makes living organisms different from non-living materials?  
 
-- A key question in biology is:: what distinguishes living matter from non-living matter.  
+- A key question in biology is:: what distinguishes living matter from non-living matter.
+<!--SR:!2025-10-20,1,230-->
 - Non-living examples include:: rocks, rings, or furniture.
 <!--SR:!2025-10-20,1,230-->
 - Living examples include:: mouse, amoeba, lotus (plant).
@@ -93,7 +94,8 @@ Examples of metabolic reactions:
 - Evolution is defined as:: the process of species change over time.  
 - All organisms alive today descended from:: earlier species.
 <!--SR:!2025-10-20,1,230-->
-- Evidence of evolution:: fossil record (e.g., evolution of whales).  
+- Evidence of evolution:: fossil record (e.g., evolution of whales).
+<!--SR:!2025-10-20,1,230-->
 - All species living today share:: a common ancestor.
 <!--SR:!2025-10-20,1,230-->
 - Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).  
@@ -109,7 +111,8 @@ Examples: gold, carbon, copper.
 
 ## 1.12 Chemical Elements  
 
-- Elements are:: different types of atoms.  
+- Elements are:: different types of atoms.
+<!--SR:!2025-10-20,1,230-->
 - Elements with different atomic numbers:: have different chemical properties.
 <!--SR:!2025-10-20,1,230-->
 - Examples:  

@@ -43,7 +43,8 @@
 - Cells reproduce by:: cell division.  
 - In multicellular organisms, new body cells and body forms are created through:: repeated cell divisions.
 <!--SR:!2025-10-20,1,230-->
-- Example of cell division in development:: a sea urchin egg divides → forms embryo → develops into an adult sea urchin.  
+- Example of cell division in development:: a sea urchin egg divides → forms embryo → develops into an adult sea urchin.
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.7 Organisms Use DNA as Genetic Blueprints  
 

@@ -28,7 +28,8 @@
 
 ## 1.4 Common Features of Living Organisms  
 
-- One of the defining features of living organisms is:: they are made of cells.  
+- One of the defining features of living organisms is:: they are made of cells.
+<!--SR:!2025-10-20,1,230-->
 - The cell is:: the smallest unit of life.
 <!--SR:!2025-10-20,1,230-->
 
@@ -86,9 +87,10 @@ Examples of metabolic reactions:
 <!--SR:!2025-10-20,1,230-->
 - Main classes of organic molecules in biology are:
 ?
-  - Carbohydrates  
-  - Proteins  
-  - Lipids (oils, fats, etc.)  
+  - Carbohydrates
+  - Proteins
+  - Lipids (oils, fats, etc.)
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.10 Evolution  
 

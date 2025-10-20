@@ -63,7 +63,8 @@
 ## 1.8 Organisms Use & Transform Energy  
 
 - Living organisms require:: energy to survive and function.  
-- Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).  
+- Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).
+<!--SR:!2025-10-20,1,230-->
 - Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).
 <!--SR:!2025-10-20,1,230-->
 - Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).
@@ -104,7 +105,8 @@ Examples of metabolic reactions:
 
 - An atom is:: the smallest unit of matter.
 <!--SR:!2025-10-20,1,230-->
-- Everything (living or non-living):: is made of atoms.  
+- Everything (living or non-living):: is made of atoms.
+<!--SR:!2025-10-20,1,230-->
 - Atoms cannot be:: broken down by chemical methods.  
 
 Examples: gold, carbon, copper.  

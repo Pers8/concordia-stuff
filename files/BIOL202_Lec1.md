@@ -95,7 +95,8 @@ Examples: gold, carbon, copper.
 ## 1.13 Periodic Table Basics  
 
 - Chemical elements are organized:: by atomic number.  
-- Four major elements in living organisms are::  
+- Four major elements in living organisms are:
+?
   - H (hydrogen) → atomic number 1  
   - C (carbon) → atomic number 6  
   - N (nitrogen) → atomic number 7  

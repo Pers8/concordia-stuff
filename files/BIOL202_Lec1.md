@@ -61,7 +61,8 @@ Examples of metabolic reactions:
 
 - Living organisms are mainly made of:: organic molecules.  
 - Organic molecules are defined as:: molecules that contain carbon.  
-- Main classes of organic molecules in biology are::  
+- Main classes of organic molecules in biology are:
+?
   - Carbohydrates  
   - Proteins  
   - Lipids (oils, fats, etc.)  

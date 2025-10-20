@@ -3,7 +3,8 @@
 
 ## 1.1 What is Biology?  
 
-- Biology is:: the scientific study of living organisms.  
+- Biology is:: the scientific study of living organisms.
+<!--SR:!2025-10-20,1,230-->
 - Biology literally means:: "study of life."  
 - Examples of organisms studied in biology include:: humans, animals (e.g., bass), fungi (e.g., mushrooms), plants (e.g., lotus), protists (e.g., amoeba), and bacteria (e.g., *E. coli*).  
 
@@ -124,7 +125,8 @@ Examples: gold, carbon, copper.
   - Neutron → no charge  
   - Electron → negative charge  
 - Protons + neutrons are located in:: the nucleus.  
-- Electrons orbit:: around the nucleus.  
+- Electrons orbit:: around the nucleus.
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.16 Atomic Number and Hydrogen Example  
 

@@ -63,7 +63,8 @@
 
 ## 1.8 Organisms Use & Transform Energy  
 
-- Living organisms require:: energy to survive and function.  
+- Living organisms require:: energy to survive and function.
+<!--SR:!2025-10-20,1,230-->
 - Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).
 <!--SR:!2025-10-20,1,230-->
 - Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).
@@ -101,7 +102,8 @@ Examples of metabolic reactions:
 <!--SR:!2025-10-20,1,230-->
 - All species living today share:: a common ancestor.
 <!--SR:!2025-10-20,1,230-->
-- Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).  
+- Over time species:: diversified into bacteria, archaea, algae, plants, fungi, invertebrates, and vertebrates (including humans).
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.11 Atoms – The Smallest Unit of Matter  
 

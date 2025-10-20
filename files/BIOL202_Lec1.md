@@ -37,7 +37,8 @@
 ## 1.6 Cells Reproduce by Cell Division  
 
 - Cells reproduce by:: cell division.  
-- In multicellular organisms, new body cells and body forms are created through:: repeated cell divisions.  
+- In multicellular organisms, new body cells and body forms are created through:: repeated cell divisions.
+<!--SR:!2025-10-20,1,230-->
 - Example of cell division in development:: a sea urchin egg divides → forms embryo → develops into an adult sea urchin.  
 
 ## 1.7 Organisms Use DNA as Genetic Blueprints  
@@ -64,7 +65,8 @@ Examples of metabolic reactions:
 
 ## 1.9 Organic Molecules  
 
-- Living organisms are mainly made of:: organic molecules.  
+- Living organisms are mainly made of:: organic molecules.
+<!--SR:!2025-10-20,1,230-->
 - Organic molecules are defined as:: molecules that contain carbon.  
 - Main classes of organic molecules in biology are:
 ?
@@ -128,7 +130,8 @@ Examples: gold, carbon, copper.
 
 - The number of protons =:: atomic number.  
 - Normally, the number of electrons =:: the number of protons.  
-- Hydrogen atom has:: one proton, one electron, and no neutrons.  
+- Hydrogen atom has:: one proton, one electron, and no neutrons.
+<!--SR:!2025-10-20,1,230-->
 
 ---
 

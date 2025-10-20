@@ -35,7 +35,8 @@
 
 - Unicellular organism:: an individual made of only one cell (seen only with a microscope).
 <!--SR:!2025-10-20,1,230-->
-  - Example:: bacteria (*Salmonella*)  
+  - Example:: bacteria (*Salmonella*)
+<!--SR:!2025-10-20,1,230-->
 - Multicellular organism:: an individual made of multiple cells, usually large (some microscopic), for example humans.
 <!--SR:!2025-10-20,1,230-->
 

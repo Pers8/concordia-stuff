@@ -92,7 +92,7 @@ Examples: gold, carbon, copper.
   - Carbon (atomic number 6)  
   - Copper (atomic number 29)  
 
-## 1.14 Periodic Table Basics  
+## 1.13 Periodic Table Basics  
 
 - Chemical elements are organized:: by atomic number.  
 - Four major elements in living organisms are::  
@@ -101,11 +101,11 @@ Examples: gold, carbon, copper.
   - N (nitrogen) → atomic number 7  
   - O (oxygen) → atomic number 8  
 
-## 1.15 Other Important Elements in Biology  
+## 1.14 Other Important Elements in Biology  
 
 - Sodium (Na), Potassium (K), Phosphorus (P), and Chlorine (Cl) also play key roles in biology.  
 
-## 1.16 Structure of an Atom  
+## 1.15 Structure of an Atom  
 
 - An atom is made of:: three subatomic particles.  
   - Proton → positive charge  
@@ -114,7 +114,7 @@ Examples: gold, carbon, copper.
 - Protons + neutrons are located in:: the nucleus.  
 - Electrons orbit:: around the nucleus.  
 
-## 1.17 Atomic Number and Hydrogen Example  
+## 1.16 Atomic Number and Hydrogen Example  
 
 - The number of protons =:: atomic number.  
 - Normally, the number of electrons =:: the number of protons.  

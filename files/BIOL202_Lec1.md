@@ -92,12 +92,6 @@ Examples: gold, carbon, copper.
   - Carbon (atomic number 6)  
   - Copper (atomic number 29)  
 
-## 1.13 Chemical Elements  
-
-- Elements are:: different types of atoms.  
-- Elements with different atomic numbers:: have different chemical properties.  
-- Example elements: Gold (79), Carbon (6), Copper (29).  
-
 ## 1.14 Periodic Table Basics  
 
 - Chemical elements are organized:: by atomic number.  

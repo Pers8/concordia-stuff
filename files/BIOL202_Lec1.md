@@ -19,7 +19,8 @@
 - A key question in biology is:: what distinguishes living matter from non-living matter.  
 - Non-living examples include:: rocks, rings, or furniture.
 <!--SR:!2025-10-20,1,230-->
-- Living examples include:: mouse, amoeba, lotus (plant).  
+- Living examples include:: mouse, amoeba, lotus (plant).
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.4 Common Features of Living Organisms  
 
@@ -56,7 +57,8 @@
 - Example of energy transformation in animals:: chemical energy (food) → physical energy (muscle movement).  
 - Example of energy transformation in plants:: light energy → chemical energy (photosynthesis).
 <!--SR:!2025-10-20,1,230-->
-- Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).  
+- Photosynthesis converts:: light energy into chemical energy (stored as starch in tubers/leaves).
+<!--SR:!2025-10-20,1,230-->
 - Metabolism is:: the set of chemical reactions in organisms that create or break down molecules.  
 
 Examples of metabolic reactions:  

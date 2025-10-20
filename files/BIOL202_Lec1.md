@@ -108,10 +108,11 @@ Examples: gold, carbon, copper.
 - Chemical elements are organized:: by atomic number.  
 - Four major elements in living organisms are:
 ?
-  - H (hydrogen) → atomic number 1  
-  - C (carbon) → atomic number 6  
-  - N (nitrogen) → atomic number 7  
-  - O (oxygen) → atomic number 8  
+  - H (hydrogen) → atomic number 1
+  - C (carbon) → atomic number 6
+  - N (nitrogen) → atomic number 7
+  - O (oxygen) → atomic number 8
+<!--SR:!2025-10-20,1,230-->
 
 ## 1.14 Other Important Elements in Biology  
 

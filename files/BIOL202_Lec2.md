@@ -165,7 +165,7 @@
 - This attraction:: is **weaker** than both covalent and ionic bonds.  
 - Hydrogen bonds occur:: **between** molecules — not within a single molecule.  
 - Example:: between water molecules (H₂O) — the positive H of one molecule attracts the negative O of another.  
-- Hydrogen bonds can be **broken by heat**, which is why water vaporizes when boiled.  
+- Hydrogen bonds can be broken by:: heat, which is why water vaporizes when boiled.  
 
 ## 2.19 Properties of Water Important to Life  
 

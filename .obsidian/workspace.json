@@ -29,44 +29,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/BIOL202_Lec2.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BIOL202_Lec2"
-            }
-          },
-          {
-            "id": "4d86de57a0a155c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "files/1a.md",
+                "file": "winter/BIOL 201.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1a"
+              "title": "BIOL 201"
             }
           },
           {
-            "id": "83e557582867a08b",
+            "id": "d00f111f61156415",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "files/1b.md",
-                "mode": "preview",
+                "file": "files/BIOL201_Lec1.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1b"
+              "title": "BIOL201_Lec1"
+            }
+          },
+          {
+            "id": "9d2c10efe9602120",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/BIOL201_Lec2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIOL201_Lec2"
+            }
+          },
+          {
+            "id": "a004f2fe760791b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "files/BIOL201_Lec4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BIOL201_Lec4"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -290,48 +304,48 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "83e557582867a08b",
+  "active": "a004f2fe760791b0",
   "lastOpenFiles": [
-    "files/1a.md",
-    "files/1b.md",
-    "files/BIOL202_Lec2.md",
-    "files/BIOL202_Lec3.md",
-    "Dashboard.md",
-    "2025-10-27.md",
-    "files/BIOL202_Lec1.md",
-    "eff.md",
-    "Test.md",
-    "files/BIOL202_Lec4.md",
-    "files/CHEM205_Lec0.md",
-    "files/full_body_skincare_routine_interactive_hover_table_html.html",
-    "assets/Pasted image 20251006135257.png",
-    "assets/Pasted image 20251006135254.png",
-    "assets/Pasted image 20251006130236.png",
-    "assets/Pasted image 20251006130158.png",
-    "assets/Pasted image 20251006125719.png",
-    "Untitled.base",
-    "files/Untitled.md",
-    "fall/BIOL 202.md",
-    "BIOL202_Lec6.md",
-    "fall/CHEM 205.md",
+    "files/BIOL201_Lec2.md",
+    "files/BIOL201_Lec4.md",
+    "assets/BIOL201_Lec4_metaphase_animal.png",
+    "assets/BIOL201_Lec4_meiosisI_prophaseI.png",
+    "assets/BIOL201_Lec4_meiosisI_metaphaseI.png",
+    "assets/BIOL201_Lec4_interphase_animal.png",
+    "assets/BIOL201_Lec4_cytokinesis_plant_cell_plate.png",
+    "assets/BIOL201_Lec4_chromosome_chromatid_centromere.png",
+    "assets/BIOL201_Lec4_cell_cycle_table.png",
+    "assets/BIOL201_Lec4_cell_cycle_pie.png",
+    "assets/BIOL201_Lec4_anaphase_plant.png",
+    "assets/BIOL201_Lec4_anaphase_animal.png",
+    "Excalidraw/Drawing 2026-02-04 23.17.25.excalidraw.md",
+    "files/BIOL201_Lec3.md",
     "winter/BIOL 201.md",
-    "assets/Pasted image 20250929153129.png",
-    "assets/Pasted image 20250929152944.png",
-    "assets/Pasted image 20250929150432.png",
-    "files/Test.md",
-    "assets/Pasted image 20250929145556.png",
-    "assets/Pasted image 20250929095552.png",
-    "Prep.md",
+    "files/BIOL201_Lec1.md",
+    "files/BIOL202_Lec1.md",
+    "files/1a.md",
+    "files/BIOL202_Lec2.md",
+    "files/1b.md",
+    "files/CHEM205_Lec0.md",
+    "files/BIOL202_Lec4.md",
+    "files/BIOL202_Lec3.md",
+    "fall/BIOL 202.md",
+    "fall/CHEM 205.md",
+    "Chem205_Rogers_Week2a_Kotz-or-Open.md",
     "fall/MATH 204.md",
-    "files",
-    "winter/PHYS 205.md",
-    "fall/BIOL 201.md",
-    "fall/PHYS 205.md",
-    "fall/MATH 205.md",
-    "fall/COEN 243.md",
-    "fall",
-    "winter/COEN 243.md",
+    "winter/CHEM 205 (2).md",
+    "Dashboard.md",
+    "winter/ECON 201.md",
+    "files/BIOL201_Lec5.md",
+    "files/MATH205_Lec1.md",
+    "Excalidraw/Drawing 2026-01-25 14.15.55.excalidraw.md",
+    "Excalidraw",
     "winter/MATH 205.md",
+    "2025-10-27.md",
+    "files/full_body_skincare_routine_interactive_hover_table_html.html",
+    "Untitled.base",
+    "files",
+    "fall",
     "quick_links",
     "winter",
     "assets"

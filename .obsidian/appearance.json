@@ -8,7 +8,8 @@
     "supercharged-links-gen",
     "homepage",
     "ml-dashboard",
-    "iosevka-weights"
+    "iosevka-weights",
+    "pdf-fix"
   ],
   "monospaceFontFamily": "Iosevka Nerd Font"
 }

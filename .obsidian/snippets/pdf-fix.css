@@ -1,0 +1,72 @@
+@media print {
+
+    /* 1. Force the page to use your specific background image */
+
+    body, .print, .markdown-rendered, .export-pdf {
+
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+
+        background-color: #0b0f1a !important;
+
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='2220' height='1490' fill='none' viewBox='0 0 2220 1490'%3e%3cg clip-path='url(%23a)'%3e%3cpath fill='black' fill-opacity='.25' d='M0 1490V0h2220v1490z'/%3e%3cpath fill='url(%23b)' fill-opacity='.1' d='M0 1490h1490v2220H0z' style='mix-blend-mode:overlay' transform='rotate(-90 0 1490)'/%3e%3c/g%3e%3c/svg%3e") !important;
+
+        background-size: cover !important;
+
+        background-position: center !important;
+
+    }
+
+
+
+    /* 2. Remove the unwanted lines under headers and the "dark box" effect */
+
+    h1, h2, h3, h4, .markdown-rendered > * {
+
+        border: none !important;
+
+        box-shadow: none !important;
+
+        background: transparent !important;
+
+    }
+
+
+
+    /* 3. Re-apply your Lightdown-Blue accent colors */
+
+    .markdown-rendered {
+
+        --text-normal: #e6edf3 !important;
+
+        --h1-color: #80bfff !important;
+
+        --accent-color: #80bfff !important;
+
+        color: #e6edf3 !important;
+
+        padding: 40px !important;
+
+    }
+
+
+
+    h1, h2, h3, .cm-header {
+
+        color: #80bfff !important;
+
+    }
+
+
+
+    /* 4. Fix Margins - ensure content starts at the top-left */
+
+    @page {
+
+        margin: 0 !important;
+
+    }
+
+}
+

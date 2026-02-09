@@ -20,7 +20,16 @@
     "biol202": 7,
     "biol202/lec1": 1,
     "biol202/lec2": 2,
-    "biol202/lec3": 3
+    "biol202/lec3": 3,
+    "chem205/lec1": 2,
+    "math205": 8,
+    "math205/lec1": 1,
+    "excalidraw": 9,
+    "biol201": 10,
+    "biol201/lec1": 1,
+    "biol201/lec2": 2,
+    "biol201/lec3": 3,
+    "biol201/lec4": 4
   },
   "_version": 3
 }
